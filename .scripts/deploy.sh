@@ -2,7 +2,7 @@
 set -e
 
 
-echo "Deployment started ..."
+echo "Deployment started..."
 
 
 # Enter maintenance mode or return true
