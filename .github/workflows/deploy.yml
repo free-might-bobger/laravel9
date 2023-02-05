@@ -24,5 +24,6 @@ jobs:
          script: "cd /var/www/laravel9 
                 && git stash
                 && git pull origin main
+                && ./vendor/bin/phpunit
                 && sudo chmod 777 -R ./.scripts/deploy.sh 
                 && ./.scripts/deploy.sh"
