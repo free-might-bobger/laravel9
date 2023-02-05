@@ -14,8 +14,8 @@ echo "Deployment started..."
 
 
 git stash
-git checkout main
-git pull origin main
+# git checkout main
+# git pull origin main
 
 
 # Install composer dependencies
