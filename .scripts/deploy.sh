@@ -12,6 +12,7 @@ echo "Deployment started..."
 
 # Pull the latest version of the app
 
+git checkout stash
 git checkout main
 git pull origin main
 
