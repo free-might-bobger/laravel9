@@ -19,7 +19,7 @@ echo "Deployment started..."
 
 
 # Install composer dependencies
-#composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader
+composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader
 
 
 # Clear the old cache
@@ -35,11 +35,11 @@ echo "Deployment started..."
 
 
 # Run database migrations
-#php artisan migrate --force
+php artisan migrate --force
 
 
 # Exit maintenance mode
-#php artisan up
+php artisan up
 
 
 echo "Deployment finished!"
