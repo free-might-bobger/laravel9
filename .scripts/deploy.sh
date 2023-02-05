@@ -7,10 +7,13 @@ echo "Deployment started..."
 
 # Enter maintenance mode or return true
 # if already is in maintenance mode
-#(php artisan down) || true
+(php artisan down) || true
 
 
 # Pull the latest version of the app
+
+git checkout stash
+git checkout main
 git pull origin main
 
 
