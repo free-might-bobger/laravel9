@@ -25,6 +25,6 @@ jobs:
                 && git stash
                 && git pull origin main
                 && sudo chmod 777 -R ./.scripts/deploy.sh 
-                && sudo chmod 777 -R ./var/www/laravel9/storage/logs
+                && sudo chmod 777 -R /storage/logs
                 && ./.scripts/deploy.sh 
                 && ./vendor/bin/phpunit"
