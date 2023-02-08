@@ -42,4 +42,5 @@ php artisan config:clear
 # Exit maintenance mode
 php artisan up
 
+
 echo "Deployment finished!"
