@@ -37,6 +37,7 @@ php artisan clear-compiled
 # Run database migrations
 php artisan migrate --force
 
+php artisan config:clear
 
 # Exit maintenance mode
 php artisan up
