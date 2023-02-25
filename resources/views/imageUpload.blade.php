@@ -31,7 +31,7 @@
             </div>
         @endif
     
-        <form action="{{ secure_url('image.upload.post') }}" method="POST" enctype="multipart/form-data">
+        <form action="{{ secure_url('image-upload') }}" method="POST" enctype="multipart/form-data">
             @csrf
             <div class="row">
     
